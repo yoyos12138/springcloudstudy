@@ -1,0 +1,88 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "My03Client",
+            "request": "launch",
+            "mainClass": "com.zzz.My03Client",
+            "projectName": "my03client"
+        },
+        {
+            "type": "java",
+            "name": "My01Eureka",
+            "request": "launch",
+            "mainClass": "com.zzz.My01Eureka",
+            "projectName": "my01eureka",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=33931 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=my01eureka"
+        },
+        {
+            "type": "java",
+            "name": "Book2",
+            "request": "launch",
+            "mainClass": "com.zzz.Book2",
+            "projectName": "book2",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=35597 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=book2"
+        },
+        {
+            "type": "java",
+            "name": "Book1",
+            "request": "launch",
+            "mainClass": "com.zzz.Book1",
+            "projectName": "book1",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=40429 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=book1"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-Account2<account2>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.zzz.Account2",
+            "projectName": "account2",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=46541 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=account2"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-Account1<account1>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.zzz.Account1",
+            "projectName": "account1",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=32789 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=account1"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-Main<book2>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.zzz.Main",
+            "projectName": "book2",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-My02Eureka<my02eureka>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.zzz.My02Eureka",
+            "projectName": "my02eureka",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=37107 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=my02eureka"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-Main<my03client>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.zzz.Main",
+            "projectName": "my03client",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
